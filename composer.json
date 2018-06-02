@@ -1,0 +1,22 @@
+{
+    "name": "ilbox/doctrine-traits",
+    "description": "Trait for doctrine",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/iliabox/doctrine-traits",
+    "authors": [
+        {
+            "name": "Elias Bulychov",
+            "email": "iliabulychov+git@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "doctrine/common": "~2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilbox\\Doctrine\\Traits\\": "src"
+        }
+    }
+}
